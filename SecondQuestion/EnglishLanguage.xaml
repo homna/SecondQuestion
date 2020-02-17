@@ -4,5 +4,6 @@
     <system:String x:Key="KeyLabelText">Click The Button to Change the Language to Persian.</system:String>
     <system:String x:Key="keyButtonText">Change Language</system:String>
     <system:String x:Key="keyTitle">Main Window</system:String>
-
+    <Color x:Key="BaseColor">#bd0003</Color>
+    <SolidColorBrush  x:Key="keyTextColor" Color="{DynamicResource BaseColor}"/>
 </ResourceDictionary>

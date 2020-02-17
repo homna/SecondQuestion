@@ -8,7 +8,7 @@
         Title="{StaticResource keyTitle}" Height="180.4" Width="392" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid Margin="0,0,-0.4,0" Height="151" VerticalAlignment="Top" HorizontalAlignment="Right" Width="386">
         <Button Content="{DynamicResource keyButtonText}" HorizontalAlignment="Center" Margin="139,90,137.6,29.2" VerticalAlignment="Center" Width="109" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="32" Name="BtnChangeLanguage" Click="BtnChangeLanguage_Click" />
-        <Label Content="{DynamicResource KeyLabelText}" HorizontalAlignment="Center" Margin="11,33,0,0" Width="365" VerticalContentAlignment="Center" VerticalAlignment="Top" HorizontalContentAlignment="Center"/>
+        <Label Content="{DynamicResource KeyLabelText}" Foreground="{DynamicResource keyTextColor}" HorizontalAlignment="Center" Margin="11,33,0,0" Width="365" VerticalContentAlignment="Center" VerticalAlignment="Top" HorizontalContentAlignment="Center"/>
 
     </Grid>
 </Window>

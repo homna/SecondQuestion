@@ -4,5 +4,6 @@
     <system:String x:Key="KeyLabelText">برای تغییر زبان به انگلیسی، دکمه را کلیک نمایید</system:String>
     <system:String x:Key="keyButtonText">تغییر زبان</system:String>
     <system:String x:Key="keyTitle">تغییر زبان</system:String>
-
+    <Color x:Key="BaseColor">#1400c7</Color>
+    <SolidColorBrush  x:Key="keyTextColor" Color="{DynamicResource BaseColor}"/>
 </ResourceDictionary>
